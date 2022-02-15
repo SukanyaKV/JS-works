@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Oceanus</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2" family="Poppins:wght@400;700$display=swap" rel="stylesheet">
+    <script src="script.js">
+    </script>
+</head>
+
+<div class="leftdiv">
+    <img src="image1.png" alt="image1" height="700" width="1000">
+
+</div>
+
+<div class="rightdiv">
+    <img src="Frame.png" alt="image1" height="80" width="80">
+    <div class="right1">
+        <h2>LOGIN</h2>
+    </div>
+    <div class="right2">
+        <h3>Welcome To Oceanus</h3>
+    </div>
+    <div class="input">
+        <form onsubmit="handleSubmit()">
+            <tr>
+                <td>
+                    <label for="email"></label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter Email"> <br>
+                </td>
+                <td>
+                    <label for="password"></label><br>
+                    <input type="password" id="password" name="password" placeholder=" Enter password">
+                </td>
+            </tr>
+        </form>
+    </div>
+    <tr>
+        <td>
+            <b class="box">
+            <input type="checkbox" id="remember" name="rem" value="remember">
+            <label for="remember">Remember me</label>
+            </b>
+            <a class="forgot" href="http://gmail.com" target="_blank">Forgot Password</a>
+
+        </td>
+    </tr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit" onclick="handleSubmit()" class="button red"> LOGIN </button>
+
+    <div id="result" class="display"> </div>
+
+</div>
+
+
+</html>

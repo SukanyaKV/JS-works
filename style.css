@@ -1,0 +1,98 @@
+.rect1 {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    background: #47C2C7;
+}
+
+.div {
+    padding: 2%;
+    color: white;
+    background-color: 009900;
+    width: 20%;
+    border: solid black;
+}
+
+.rightdiv {
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    left: 1115px;
+    top: 150px;
+}
+
+.right1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.2em;
+}
+
+.leftdiv {
+    float: left;
+}
+
+.right2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: #47c2c7;
+}
+
+input[type=text] {
+    width: -150%;
+    height: 50%;
+    padding: 10px 12px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(152, 164, 230);
+}
+
+input[type=password] {
+    width: -150%;
+    height: 50%;
+    padding: 10px 12px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(152, 164, 230);
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(19, 152, 175);
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 26px;
+    border-radius: 0px;
+}
+
+.button.red {
+    color: antiquewhite;
+    background-color: #00C0F3;
+}
+
+.box {
+    color: #00C0F3;
+    padding-bottom: 8px;
+    padding-right: 30px;
+}
+
+.forgot {
+    color: #00C0F3;
+    padding-left: 90px;
+    padding-bottom: 81px;
+}
