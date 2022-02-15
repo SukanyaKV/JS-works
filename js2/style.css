@@ -1,0 +1,7 @@
+.id {
+    padding: 30px;
+    width: 200px;
+    border: 1px solid rgb(207, 152, 207);
+    box-shadow: 1px 2px 10px #fcf;
+    background-color: aqua;
+}
